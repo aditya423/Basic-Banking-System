@@ -23,16 +23,16 @@
     		<div class="collapse navbar-collapse" id="navbarSupportedContent">
       			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
         			<li class="nav-item">
-          				<a class="nav-link active" href="#">Home</a>
+          				<a class="nav-link active" href="index.php">Home</a>
         			</li>
         			<li class="nav-item">
-          				<a class="nav-link" href="#">Our Customers</a>
+          				<a class="nav-link" href="customers.php">Our Customers</a>
         			</li>
         			<li class="nav-item">
-          				<a class="nav-link" href="#">Transfer History</a>
+          				<a class="nav-link" href="transactions.php">Transfer History</a>
         			</li>
         			<li class="nav-item">
-          				<a class="nav-link" href="#">Currency Converter</a>
+          				<a class="nav-link" href="https://www.xe.com/currencyconverter/convert/?Amount=20&From=INR&To=EUR">Currency Converter</a>
         			</li>
         		</ul>
     		</div>
@@ -50,8 +50,6 @@
 		</div>
 	</section>
 
-	<br>
-
 	<section id="mission">
 		<div class="container-fluid">
 			<div class="row">
@@ -61,8 +59,6 @@
 			</div>
 		</div>
 	</section>
-
-	<br>
 
 	<section id="vision">
 		<div class="container-fluid">
