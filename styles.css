@@ -104,6 +104,7 @@
 	color: black; 
 	padding-top: 10px; 
 	padding-left: 15px;
+<<<<<<< HEAD
 }
 
 #selected-button {
@@ -115,4 +116,6 @@
 
 #selected-button:hover {
 	color: lightgrey;	
+=======
+>>>>>>> d29840f7ffdc3fbaf7afd1772364678a26d98c85
 }

@@ -83,6 +83,7 @@ if(isset($_POST['submit']))
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Easy Money Transfer</title>
+<<<<<<< HEAD
 
     <link rel="stylesheet" type="text/css" href="styles.css">
     
@@ -91,6 +92,26 @@ if(isset($_POST['submit']))
 </head>
 
     <body>
+=======
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style type="text/css">
+		button{
+			border:none;
+			background: #d9d9d9;
+		}
+	    button:hover{
+			background-color:#777E8B;
+			transform: scale(1.1);
+			color:white;
+		}
+    </style>
+</head>
+
+    <body style="background-color : #00008B ;">
+>>>>>>> d29840f7ffdc3fbaf7afd1772364678a26d98c85
 
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -105,7 +126,11 @@ if(isset($_POST['submit']))
                             <a class="nav-link" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
+<<<<<<< HEAD
                             <a class="nav-link" href="customers.php">Our Customers</a>
+=======
+                            <a class="nav-link active" href="customers.php">Our Customers</a>
+>>>>>>> d29840f7ffdc3fbaf7afd1772364678a26d98c85
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="transactions.php">Transfer History</a>
@@ -120,7 +145,11 @@ if(isset($_POST['submit']))
  
 
 	   <div class="container">
+<<<<<<< HEAD
             <h2 class="text-center pt-4" style="background-color: #ffff97; padding-bottom: 30px;">Easy Money Transfer</h2>
+=======
+            <h2 class="text-center pt-4" style="color : white;">Easy Money Transfer</h2>
+>>>>>>> d29840f7ffdc3fbaf7afd1772364678a26d98c85
                 <?php
                     include 'config.php';
                     $sid=$_GET['id'];
@@ -134,6 +163,7 @@ if(isset($_POST['submit']))
                 ?>
                 <form method="post" name="tcredit" class="tabletext" ><br>
             <div>
+<<<<<<< HEAD
                 <table class="table table-striped table-condensed table-bordered" style="border: gray;">
                     <tr style="background-color: #c0c0ff;">
                         <th id="table-head" style="padding-top: 12px;">Account No.</th>
@@ -151,6 +181,25 @@ if(isset($_POST['submit']))
             </div>
             <br><br>
             <label style="margin-bottom: 5px;"><b>Transfer To:</b></label>
+=======
+                <table class="table table-striped table-condensed table-bordered">
+                    <tr style="color : white;">
+                        <th class="text-center">Account No.</th>
+                        <th class="text-center">Account Name</th>
+                        <th class="text-center">E-mail</th>
+                        <th class="text-center">Account Balane(in Rs.)</th>
+                    </tr>
+                    <tr style="color : white;">
+                        <td class="py-2"><?php echo $rows['id'] ?></td>
+                        <td class="py-2"><?php echo $rows['name'] ?></td>
+                        <td class="py-2"><?php echo $rows['email'] ?></td>
+                        <td class="py-2"><?php echo $rows['balance'] ?></td>
+                    </tr>
+                </table>
+            </div>
+            <br><br><br>
+            <label style="color : white;"><b>Transfer To:</b></label>
+>>>>>>> d29840f7ffdc3fbaf7afd1772364678a26d98c85
             <select name="to" class="form-control" required>
                 <option value="" disabled selected>Choose account</option>
                 <?php
@@ -176,11 +225,20 @@ if(isset($_POST['submit']))
                 <div>
             </select>
             <br>
+<<<<<<< HEAD
                 <label style="margin-bottom: 5px;"><b>Amount:</b></label>
                 <input type="number" class="form-control" name="amount" required>   
                 <br><br>
                 <div class="text-center" >
                     <button name="submit" type="submit" class="btn" id="selected-button">Transfer Money</button>
+=======
+            <br>
+                <label style="color : white;"><b>Amount:</b></label>
+                <input type="number" class="form-control" name="amount" required>   
+                <br><br>
+                    <div class="text-center" >
+                <button class="btn mt-3" name="submit" type="submit" id="myBtn" >Transfer Money</button>
+>>>>>>> d29840f7ffdc3fbaf7afd1772364678a26d98c85
                 </div>
             </form>
         </div>
