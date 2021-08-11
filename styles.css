@@ -67,6 +67,7 @@
 	background-color: lightcyan;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	margin-top: 5px;
 }
 
 #mission-head {
@@ -77,6 +78,7 @@
 	background-color: lightgoldenrodyellow;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	margin-top: 5px;
 }
 
 #vision-head {
@@ -90,4 +92,27 @@
     border-top: 0;
     color: white;
     font-size: 15px;
+}
+
+#table-head {
+	height: 50px; 
+	padding-left: 15px; 
+	padding-bottom: 13px;
+}
+
+#table-content {
+	color: black; 
+	padding-top: 10px; 
+	padding-left: 15px;
+}
+
+#selected-button {
+	background-color: red; 
+	color: white; 
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+#selected-button:hover {
+	color: lightgrey;	
 }
