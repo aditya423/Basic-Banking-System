@@ -67,6 +67,7 @@
 	background-color: lightcyan;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	margin-top: 5px;
 }
 
 #mission-head {
@@ -77,6 +78,7 @@
 	background-color: lightgoldenrodyellow;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	margin-top: 5px;
 }
 
 #vision-head {
@@ -91,3 +93,130 @@
     color: white;
     font-size: 15px;
 }
+
+#table-head {
+	height: 50px; 
+	padding-left: 15px; 
+	padding-bottom: 13px;
+}
+
+#table-content {
+	color: black; 
+	padding-top: 10px; 
+	padding-left: 15px;
+}
+
+#selected-button {
+	background-color: red; 
+	color: white; 
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+#selected-button:hover {
+	color: lightgrey;	
+}
+
+@media (min-width: 571px) and (max-width: 767px) {
+	#welcometo {
+		margin-bottom: 30px;
+	}
+
+	#table-head {
+		height: 50px; 
+		padding-left: 15px; 
+		padding-bottom: 13px;
+		font-size: 15px;
+	}
+	
+	#table-content {
+		color: black; 
+		padding-top: 10px; 
+		padding-left: 15px;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 570px) {
+	#welcometo {
+		margin-bottom: 30px;
+	}
+
+	#table-head {
+		font-size: 12px;
+	}
+	
+	#table-content {
+		font-size: 12px;
+	}
+
+	button.btn {
+		font-size: 12px;
+	}
+
+	#our-class {
+		font-size: 20px;
+		margin-top: 10px;
+		margin-bottom: -10px;
+	}
+}
+
+@media (max-width: 499px) {
+
+	.nav-link {
+		font-size: 12px;
+	}
+
+	#welcometo {
+		font-size: 15px;
+		margin-bottom: 30px;
+	}
+
+	#pnb {
+		font-size: 20px;
+	}
+
+	#mission-head, #vision-head {
+		font-size: 20px;
+		margin-top: -15px;
+	}
+
+	#para {
+		font-size: 15px;
+	}
+
+	#footer {
+		font-size: 15px;
+	}
+
+	#image {
+		height: 100%;
+		width: 100%;
+	}
+
+	#nav-head {
+		margin-left: -35px;
+	}
+
+	.email {
+		display: none;
+	}
+
+	#table-head {
+		font-size: 10px;
+	}
+	
+	#table-content {
+		font-size: 9px;
+	}
+
+	button.btn {
+		font-size: 10px;
+	}
+
+	#our-class {
+		font-size: 18px;
+		margin-top: 10px;
+		margin-bottom: -15px;
+	}
+}
+
