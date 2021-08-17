@@ -16,7 +16,11 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
+<<<<<<< HEAD
             <a class="navbar-brand" href="#" id="nav-head">Punjab National Bank</a>
+=======
+            <a class="navbar-brand" href="#">Punjab National Bank</a>
+>>>>>>> 970612b24d25b471b1a55215a8c9b447b6c5459a
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -47,7 +51,11 @@
 ?>
 
 <div class="container">
+<<<<<<< HEAD
         <h2 class="text-center pt-4" style="background-color: lightgoldenrodyellow; padding-bottom: 30px;" id="our-class">Our Customers</h2>
+=======
+        <h2 class="text-center pt-4" style="background-color: lightgoldenrodyellow; padding-bottom: 30px;">Our Customers</h2>
+>>>>>>> 970612b24d25b471b1a55215a8c9b447b6c5459a
         <br>
             <div class="row">
                 <div class="col">
@@ -57,7 +65,11 @@
                             <tr>
                             <th id="table-head">Account no.</th>
                             <th id="table-head">Account holder name</th>
+<<<<<<< HEAD
                             <th id="table-head" class="email">E-Mail</th>
+=======
+                            <th id="table-head">E-Mail</th>
+>>>>>>> 970612b24d25b471b1a55215a8c9b447b6c5459a
                             <th id="table-head">Account Balance(in Rs.)</th>
                             
                             </tr>
@@ -70,7 +82,11 @@
                             <tr style="color: white;">
                                 <td id="table-content"><?php echo $rows['id'] ?></td>
                                 <td id="table-content"><?php echo $rows['name']?></td>
+<<<<<<< HEAD
                                 <td id="table-content" class="email"><?php echo $rows['email']?></td>
+=======
+                                <td id="table-content"><?php echo $rows['email']?></td>
+>>>>>>> 970612b24d25b471b1a55215a8c9b447b6c5459a
                                 <td id="table-content"><?php echo $rows['balance']?></td>
                                 <td><a href="select-user-details.php?id= <?php echo $rows['id'] ;?>"> <button type="button" class="btn" style="background-color: red; color: white;">Transfer money</button></a></td> 
                             </tr>

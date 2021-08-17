@@ -16,7 +16,11 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
+<<<<<<< HEAD
             <a class="navbar-brand" href="#" id="nav-head">Punjab National Bank</a>
+=======
+            <a class="navbar-brand" href="#">Punjab National Bank</a>
+>>>>>>> 970612b24d25b471b1a55215a8c9b447b6c5459a
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,7 +44,11 @@
     </nav>
 
 	<div class="container">
+<<<<<<< HEAD
         <h2 class="text-center pt-4" style="background-color: lightcyan; padding-bottom: 30px;" id="our-class">Transfer History</h2><br>
+=======
+        <h2 class="text-center pt-4" style="background-color: lightcyan; padding-bottom: 30px;">Transfer History</h2><br>
+>>>>>>> 970612b24d25b471b1a55215a8c9b447b6c5459a
         <div class="table-responsive-sm">
             <table class="table table-striped table-condensed table-bordered" style="margin-bottom: 30px; background-color: #f1f5fb;">
                 <thead style="background-color: #ff7272;">
